@@ -2,16 +2,18 @@
 Фестиваль молодой драматургии Любимовка - это независимый некоммерческий коллективный проект российских драматургов.
 
 ## Команда 22
-- Наталья Устинова [@NataliUstinova](https://github.com/NataliUstinova) 
+- Наталья Устинова [@NataliUstinova](https://github.com/NataliUstinova)
 - Елена Соловьева [@ElenaSolov](https://github.com/ElenaSolov)
 - Екатерина Водянкина [@EkaterinaVokin](https://github.com/EkaterinaVokin)
 - Евгений Юрченков [@gear1995](https://github.com/gear1995)  
 
 ## Ссылки:
 
-Трекер задач в [Trello](https://trello.com/invite/user18257982/e030250fc4b346579176191fd9bcb75b)
+[Github Projects](https://github.com/NataliUstinova/Lubimovka/projects/1) - Трекер задач
 
-[Дизайн проекта](https://www.figma.com/file/DEeW2FE3pJiQ407zqx4C9B/Lubimovka?node-id=0%3A1)
+[Figma: Perfomance page](https://www.figma.com/file/DEeW2FE3pJiQ407zqx4C9B/Lubimovka?node-id=0%3A1) - Страница Perfomance page
+
+[Figma: All pages](https://www.figma.com/file/zpyHTGb3aKiAbpJJoIVqQ2/lubimovka?node-id=730%3A13871) - Все страницы
 
 [Styleguide](https://www.figma.com/file/DEeW2FE3pJiQ407zqx4C9B/Lubimovka?node-id=0%3A1)
 
@@ -19,7 +21,7 @@
 
 [Анимации](https://disk.yandex.ru/d/spIhtF312wOO9Q)
 
-Описание проекта в [Notion](https://www.notion.so/24de3684153749e48eb4d16b11e319eb)
+[Notion](https://www.notion.so/24de3684153749e48eb4d16b11e319eb) - Описание проекта
 
 
 ## Страница Perfomance page
