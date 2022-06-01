@@ -19,6 +19,8 @@
 
 [Анимации](https://disk.yandex.ru/d/spIhtF312wOO9Q)
 
+Описание проекта в [Notion](https://www.notion.so/24de3684153749e48eb4d16b11e319eb)
+
 
 ## Страница Perfomance page
 #### На странице есть:
