@@ -6,7 +6,7 @@
 - 2 ревьюера проверяют pull request
 
 ### Процесс
-- выбираем себе issue 
+- выбираем себе issue на доске [github projects](https://github.com/NataliUstinova/Lubimovka/projects/1)
 - делаем pull ветки develop  
 - от актуальной develop делаем ветку с номером issue 
 - вносим изменения, коммитим с # issue
