@@ -7,7 +7,9 @@
 - Екатерина Водянкина @EkaterinaVokin
 - Евгений Юрченков @gear1995
 
-## Ссылки на файлы:
+## Ссылки:
+
+Трекер задач в [Trello](https://trello.com/invite/user18257982/e030250fc4b346579176191fd9bcb75b)
 
 [Дизайн проекта](https://www.figma.com/file/DEeW2FE3pJiQ407zqx4C9B/Lubimovka?node-id=0%3A1)
 
