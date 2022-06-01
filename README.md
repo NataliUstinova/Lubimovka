@@ -2,10 +2,10 @@
 Фестиваль молодой драматургии Любимовка - это независимый некоммерческий коллективный проект российских драматургов.
 
 ## Команда 22
-- Наталья Устинова @NataliUstinova
-- Елена Соловьева @ElenaSolov
-- Екатерина Водянкина @EkaterinaVokin
-- Евгений Юрченков @gear1995
+- Наталья Устинова [@NataliUstinova](https://github.com/NataliUstinova) 
+- Елена Соловьева [@ElenaSolov](https://github.com/ElenaSolov)
+- Екатерина Водянкина [@EkaterinaVokin](https://github.com/EkaterinaVokin)
+- Евгений Юрченков [@gear1995](https://github.com/gear1995)  
 
 ## Ссылки:
 
