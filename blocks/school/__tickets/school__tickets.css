@@ -1,0 +1,9 @@
+.school__tickets {
+  width: 240px;
+  height: 56px;
+  background-image: url(../../../images/school__tickets.svg);
+  background-size: 240px 56px auto;
+  border: 0;
+  padding: 0;
+  margin-left: 120px;
+}
