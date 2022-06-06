@@ -1,0 +1,11 @@
+.reviews__text {
+  font-family: 'Formular Light',Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  line-height: 1.4;
+  color: #242424;
+  letter-spacing: -1%;
+  font-weight: 300;
+  margin: 0;
+  margin-bottom: 56px;
+  flex-grow: 1;
+}

@@ -1,0 +1,8 @@
+.reviews__card {
+  background-color: #fff;
+  padding: 33px 30px 24px 30px;
+  display: flex;
+  flex-direction: column;
+  height: 361px;
+  box-sizing: border-box;
+}
