@@ -1,4 +1,4 @@
-.review__page{
+.pagination__page{
   width: 6px;
   height: 6px;
   background-color: transparent;
@@ -8,6 +8,6 @@
   cursor: pointer;
   box-sizing: border-box;
 }
-.review__page:last-of-type{
+.pagination__page:last-of-type{
   margin-right: 0;
 }

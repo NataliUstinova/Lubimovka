@@ -1,8 +1,16 @@
 .review__header{
-display: flex;
+  display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
   margin: 150px auto 0;
   max-width: 680px;
+}
+
+@media screen and (max-width: 479px) {
+  .review__header{
+    max-width: calc(100% - 48px);
+    margin-top: 105px;
+  }
+  
 }

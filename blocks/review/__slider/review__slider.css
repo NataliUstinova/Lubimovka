@@ -8,3 +8,9 @@
   overflow: hidden;
   width: 100%;
 }
+@media screen and (max-width: 479px) {
+.review__slider{
+  grid-template-columns: 1fr;
+  margin-top: 30px;
+}
+}

@@ -10,3 +10,18 @@
   margin-left: -387px;
   justify-self: end;
 }
+
+@media screen and (max-width: 479px) {
+  .card{
+    width: 100%;
+    max-width: 100%;
+    padding: 32px 26px 72px;
+  }
+  .card:first-of-type{
+    display: none;
+  }
+  .card:last-of-type{
+    display: none;
+  }
+  
+}

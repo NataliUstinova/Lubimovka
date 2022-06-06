@@ -1,0 +1,11 @@
+.pagination{
+  list-style-type: none;
+  margin: 15px 0 0 5px;
+  padding: 0;
+  display: flex;
+}
+@media screen and (max-width: 479px) {
+.pagination{
+  margin: 0;
+}
+}

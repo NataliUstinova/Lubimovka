@@ -2,3 +2,8 @@
   display: block;
   height: 40px;
 }
+@media screen and (max-width: 479px) {
+.card__title{
+  margin-top: 38px;
+}
+}

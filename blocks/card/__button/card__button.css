@@ -1,4 +1,7 @@
 .card__button{
+  display: flex;
+  align-items: center;
+  padding: 0;
   width: 210px;
   height: 31px;
   font-family: 'Formular Light', Arial, sans-serif;
