@@ -20,3 +20,5 @@
 @import url(./blocks/reviews/__text/reviews__text.css);
 @import url(./blocks/reviews/__author/reviews__author.css);
 @import url(./blocks/reviews/__switch/reviews__switch.css);
+/* Блок swiper  Слайдер */
+@import url(./blocks/swiper/swiper.css); 
