@@ -1,0 +1,65 @@
+.button-slider {
+  height: 50px;
+  width: 50px;
+  border-width: 0;
+  background: transparent;
+  padding-left: 10px;
+  padding-right: 15px;
+  border-radius: 100px;
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.button-slider:not(:last-child) {
+  margin-right: 20px;
+}
+
+.button-slider:hover:not(.button-slider_disabled) {
+  background-color: #242424;
+  transition: background-color 0.15s ease-in-out 0.15s;
+}
+
+.button-slider:hover:not(.button-slider_disabled) .button-slider__white {
+  visibility: visible;
+  transition: visibility 0.15s ease-in-out 0.15s;
+}
+
+.button-slider:hover:not(.button-slider_disabled) .button-slider__black {
+  visibility: hidden;
+  transition: visibility 0.15s ease-in-out 0.15s;
+}
+
+.button-slider::before,
+.button-slider::after {
+  content: '';
+  height: 100%;
+  width: 50%;
+  display: block;
+  position: absolute;
+  top: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: transform 0.15s ease-in-out;
+}
+
+.button-slider::before {
+  background-image: url(../../images/ellipse_left.svg);
+  left: 0;
+}
+
+.button-slider::after { 
+  background-image: url(../../images/ellipse_right.svg);
+  right: 0;
+  transform: rotate(180deg);
+  transform-origin: left center;
+}
+
+.button-slider:hover:not(.button-slider_disabled)::after {
+  transform: rotate(0);
+}
+
+.button-slider_disabled {
+  opacity: 0.4;
+}

@@ -20,5 +20,10 @@
 @import url(./blocks/reviews/__text/reviews__text.css);
 @import url(./blocks/reviews/__author/reviews__author.css);
 @import url(./blocks/reviews/__switch/reviews__switch.css);
+/* Блок button-slider */
+@import url(./blocks/button-slider/button-slider.css);
+@import url(./blocks/button-slider/__white/button-slider__white.css);
+@import url(./blocks/button-slider/__black/button-slider__black.css);
+@import url(./blocks/button-slider/_mirrored/button-slider_mirrored.css);
 /* Блок swiper  Слайдер */
 @import url(./blocks/swiper/swiper.css); 
