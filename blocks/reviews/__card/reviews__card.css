@@ -6,3 +6,16 @@
   height: 361px;
   box-sizing: border-box;
 }
+
+@media (max-width:1023px) {
+  .reviews__card {
+    height: 410px;
+  }
+}
+
+@media (max-width:479px) {
+  .reviews__card {
+    padding: 33px 27px 100px 27px;
+    height: 476px;
+  }
+}
