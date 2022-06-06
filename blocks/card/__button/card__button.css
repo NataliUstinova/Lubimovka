@@ -1,0 +1,18 @@
+.card__button{
+  width: 210px;
+  height: 31px;
+  font-family: 'Formular Light', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: .88;
+  color: #242424;
+  border-top:    none;
+  border-right:  none;
+  border-bottom: 1px solid #242424;
+  background-color: transparent;
+  border-left:   1px solid #242424;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+

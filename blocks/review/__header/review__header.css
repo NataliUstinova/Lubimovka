@@ -1,0 +1,8 @@
+.review__header{
+display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 150px auto 0;
+  max-width: 680px;
+}

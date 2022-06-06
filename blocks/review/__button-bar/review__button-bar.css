@@ -1,0 +1,6 @@
+.review__button-bar{
+  display: flex;
+  list-style-type: none;
+  margin: 15px 0 0 30px;
+  padding: 0;
+}

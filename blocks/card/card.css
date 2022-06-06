@@ -1,0 +1,12 @@
+.card{
+  box-sizing: border-box;
+  width: 718px;
+  background-color: #fff;
+  padding: 55px 88px 72px;
+  height: fit-content;
+  cursor: pointer;
+}
+.card:first-of-type{
+  margin-left: -387px;
+  justify-self: end;
+}
