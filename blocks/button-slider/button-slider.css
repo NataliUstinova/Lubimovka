@@ -21,12 +21,12 @@
   transition: background-color 0.15s ease-in-out 0.15s;
 }
 
-.button-slider:hover:not(.button-slider_disabled) .button-slider__white {
+.button-slider:hover:not(.button-slider_disabled) .button-slider__image_type_light {
   visibility: visible;
   transition: visibility 0.15s ease-in-out 0.15s;
 }
 
-.button-slider:hover:not(.button-slider_disabled) .button-slider__black {
+.button-slider:hover:not(.button-slider_disabled) .button-slider__image_type_dark {
   visibility: hidden;
   transition: visibility 0.15s ease-in-out 0.15s;
 }

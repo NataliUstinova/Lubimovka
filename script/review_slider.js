@@ -21,8 +21,8 @@ const swiper = new Swiper('.reviews__cards .swiper', {
   },
   // Navigation arrows
   navigation: {
-    nextEl: '.reviews .button-slider_type_right',
-    prevEl: '.reviews .button-slider_type_left',
+    nextEl: '.reviews .button-slider_type_next',
+    prevEl: '.reviews .button-slider_type_prev',
     disabledClass: 'button-slider_disabled'
   }
 });
