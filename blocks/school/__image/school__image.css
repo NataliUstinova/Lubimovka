@@ -2,3 +2,10 @@
   max-width: 720px;
   margin-bottom: 48px;
 }
+
+@media screen and (max-width: 1279px) {
+  .school__image {
+    width: 100%;
+    margin-bottom: 56px;
+  }
+}
