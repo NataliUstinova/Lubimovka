@@ -1,10 +1,12 @@
-const reviewSection = document.querySelector('.review__container');
+const reviewSection = document.querySelector('.review');
+const reviewSlider = reviewSection.querySelector('.review__slider');
 const reviewCards = reviewSection.querySelectorAll('.card');
 const titleSelector = '.card__title';
 const textSelector = '.card__text';
 const nextBtn = reviewSection.querySelector('.button-slider_type_next');
 const prevBtn = reviewSection.querySelector('.button-slider_type_prev');
 const pagination = reviewSection.querySelectorAll('.pagination__page');
+const mobilePagination = reviewSection.querySelectorAll('.pagination_place_card .pagination__page');
 
 let index = 1;
 let touchstartX = 0;
@@ -44,6 +46,7 @@ window.onload = function renderInitialCards(){
   prevBtn.addEventListener('click', showPrev);
   
 }
+
 function showCards(idx){
   reviewCards.forEach((card) => {
     card.querySelector(titleSelector).src = cardContent[idx].src;
@@ -56,6 +59,7 @@ function showCards(idx){
     showActivePage();
   })
 }
+
 function showNext(){
   index++;
   reviewCards[0].classList.remove('card_invisible');
@@ -64,6 +68,7 @@ function showNext(){
   showCards(index);
   showActivePage();
 }
+
 function showPrev(){
   reviewCards[0].classList.remove('card_invisible');
   reviewCards[0].classList.add('card_inactive');
@@ -72,6 +77,7 @@ function showPrev(){
   showCards(index);
   showActivePage();
 }
+
 function showActivePage(){
   let idx = index;
   if(index===0) idx=4;
@@ -80,4 +86,28 @@ function showActivePage(){
       ? page.classList.add('pagination__page_active')
       : page.classList.remove('pagination__page_active');
   })
+  mobilePagination.forEach((page, indx) => {
+    indx===idx-1
+      ? page.classList.add('pagination__page_active')
+      : page.classList.remove('pagination__page_active');
+  })
 }
+
+//touch slider
+
+reviewSlider.addEventListener('touchstart', function (event) {
+  touchstartX = event.changedTouches[0].screenX;
+}, false);
+reviewSlider.addEventListener('touchend', function (event) {
+  touchendX = event.changedTouches[0].screenX;
+  handleGesture();
+}, false);
+function handleGesture() {
+  if (touchendX < touchstartX) {
+    showNext();
+  } else {
+    showPrev();
+  }
+}
+
+
