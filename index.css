@@ -1,7 +1,10 @@
 @import url("vendor/normalize.css");
-
+/* Подключение шрифтов */
 @import url("vendor/fonts/formular-light/formular-light.css");
 @import url("vendor/fonts/neue-machina-regular/neue-machina-regular.css");
+/* Блок page */
+@import url(./blocks/page/page.css);
+/* Блок school */
 @import url(/blocks/school/school.css);
 @import url(/blocks/school/__container/school__container.css);
 @import url(/blocks/school/__date/school__date.css);
@@ -10,17 +13,21 @@
 @import url(/blocks/school/__subtitle/shcool__subtitle.css);
 @import url(/blocks/school/__tickets/school__tickets.css);
 @import url(/blocks/school/__title/school__title.css);
+/* Блок column */
 @import url(/blocks/column/column.css);
-@import url();
-@import url();
-@import url();
-@import url();
-@import url();
-@import url();
-@import url();
-@import url();
-@import url();
-@import url();
-@import url();
-@import url();
-@import url();
+/* Блок container */
+@import url(./blocks/container/container.css);
+/* Блок reviews */
+@import url(./blocks/reviews/reviews.css);
+@import url(./blocks/reviews/__title/reviews__title.css);
+@import url(./blocks/reviews/__cards/reviews__cards.css);
+@import url(./blocks/reviews/__card/reviews__card.css);
+@import url(./blocks/reviews/__text/reviews__text.css);
+@import url(./blocks/reviews/__author/reviews__author.css);
+@import url(./blocks/reviews/__switch/reviews__switch.css);
+/* Блок button-slider */
+@import url(./blocks/button-slider/button-slider.css);
+@import url(./blocks/button-slider/__image/_type/button-slider__image_type_light.css);
+@import url(./blocks/button-slider/_mirrored/button-slider_mirrored.css);
+/* Блок swiper  Слайдер */
+@import url(./blocks/swiper/swiper.css); 
