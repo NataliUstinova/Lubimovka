@@ -1,0 +1,14 @@
+.reviews__switch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+@media (max-width:479px) {
+  .reviews__switch {
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 24px;
+  }
+}
