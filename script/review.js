@@ -36,8 +36,8 @@ const cardContent= [
   }
 ]
 
-window.onload = renderInitialCards();
-window.onresize = renderInitialCards();
+window.onload = renderInitialCards;
+window.onresize = renderInitialCards;
   
   function renderInitialCards(){
   const contentWidth = reviewSection.offsetWidth;
