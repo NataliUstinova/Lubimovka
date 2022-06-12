@@ -2,11 +2,13 @@ const reviewSection = document.querySelector('.review__container');
 const reviewCards = reviewSection.querySelectorAll('.card');
 const titleSelector = '.card__title';
 const textSelector = '.card__text';
-const nextBtn = reviewSection.querySelector('.review__button_type_next');
-const prevBtn = reviewSection.querySelector('.review__button_type_prev');
-const pagination = reviewSection.querySelectorAll('.review__page');
+const nextBtn = reviewSection.querySelector('.button-slider_type_next');
+const prevBtn = reviewSection.querySelector('.button-slider_type_prev');
+const pagination = reviewSection.querySelectorAll('.pagination__page');
 
 let index = 1;
+let touchstartX = 0;
+let touchendX = 0;
 
 const cardContent= [
   
@@ -34,7 +36,7 @@ const cardContent= [
 
 window.onload = function renderInitialCards(){
   const contentWidth = reviewSection.offsetWidth;
-  reviewCards[0].style.marginLeft = ((contentWidth-718-60)/2 - 718+17)+'px';
+  reviewCards[0].style.marginLeft = ((contentWidth-718-60)/2 - 718)+'px';
   showCards(1);
   reviewCards[2].addEventListener('click', showNext);
   reviewCards[0].addEventListener('click', showPrev);
@@ -75,7 +77,7 @@ function showActivePage(){
   if(index===0) idx=4;
   pagination.forEach((page, indx) => {
     indx===idx-1
-      ? page.classList.add('review__page_active')
-      : page.classList.remove('review__page_active');
+      ? page.classList.add('pagination__page_active')
+      : page.classList.remove('pagination__page_active');
   })
 }

@@ -1,5 +1,5 @@
 .button-slider {
-  height: 50px;
+  height: 48px;
   width: 50px;
   border-width: 0;
   background: transparent;
@@ -10,10 +10,6 @@
   cursor: pointer;
   display: flex;
   align-items: center;
-}
-
-.button-slider:not(:last-child) {
-  margin-right: 20px;
 }
 
 .button-slider:hover:not(.button-slider_disabled) {
