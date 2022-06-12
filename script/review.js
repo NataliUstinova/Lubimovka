@@ -36,7 +36,10 @@ const cardContent= [
   }
 ]
 
-window.onload = function renderInitialCards(){
+window.onload = renderInitialCards();
+window.onresize = renderInitialCards();
+  
+  function renderInitialCards(){
   const contentWidth = reviewSection.offsetWidth;
   reviewCards[0].style.marginLeft = ((contentWidth-718-60)/2 - 718)+'px';
   showCards(1);
@@ -109,5 +112,4 @@ function handleGesture() {
     showPrev();
   }
 }
-
 

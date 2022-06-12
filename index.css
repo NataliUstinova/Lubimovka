@@ -34,7 +34,6 @@
 @import url(./blocks/swiper/swiper.css);
 
 @import url('./blocks/review/review.css');
-@import url('./blocks/review/review__container.css');
 @import url('blocks/review/__header/review__header.css');
 @import url('blocks/review/__title/review__title.css');
 @import url('blocks/review/__slider/review__slider.css');
@@ -44,10 +43,7 @@
 @import url('./blocks/pagination/_place/pagination_place_header.css');
 @import url('blocks/pagination/__page/pagination__page.css');
 @import url('blocks/pagination/__page/pagination__page_active.css');
-@import url('blocks/review/__button/review__button.css');
 @import url('blocks/review/__button-bar/review__button-bar.css');
-@import url('blocks/review/__button/_type/review__button_type_prev.css');
-@import url('blocks/review/__button/_type/review__button_type_next.css');
 @import url('./blocks/card/card.css');
 @import url('./blocks/card/card_invisible.css');
 @import url('./blocks/card/card_inactive.css');

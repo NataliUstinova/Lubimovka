@@ -7,7 +7,7 @@
   max-width: 720px;
 }
 
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 718px) {
   .review__header{
     max-width: calc(100% - 48px);
     margin-top: 105px;
