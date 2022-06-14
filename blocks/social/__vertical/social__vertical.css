@@ -1,0 +1,4 @@
+.social__vertical {
+  display: inline-flex;
+  vertical-align: top;
+}
