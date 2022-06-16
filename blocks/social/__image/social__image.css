@@ -2,13 +2,3 @@
   display: block;
   width: 100%;
 }
-
-/* @media (max-width:1023px) {
-  .social__image {
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    object-fit: cover;
-  }
-} */

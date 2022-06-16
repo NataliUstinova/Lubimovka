@@ -32,7 +32,6 @@
 /* Блок swiper  Слайдер */
 @import url(./blocks/swiper/swiper.css); 
 /* Блок social */
-@import url(./blocks/social/__block-image/social__block-image.css);
 @import url(./blocks/social/__image/social__image.css);
 @import url(./blocks/social/__title/social__title.css);
 @import url(./blocks/social/__vertical/social__vertical.css);
