@@ -15,6 +15,10 @@
 @import url(/blocks/school/__title/school__title.css);
 /* Блок column */
 @import url(/blocks/column/column.css);
+/* Блок photo-grid */
+@import url("blocks/photo-grid/photo-grid.css");
+@import url("blocks/photo-grid/__item/photo-grid__item.css");
+@import url("blocks/photo-grid/__header/photo-grid__header.css");
 /* Блок container */
 @import url(./blocks/container/container.css);
 /* Блок reviews */
@@ -51,4 +55,13 @@
 @import url('./blocks/card/__text/card__text.css');
 @import url('./blocks/card/__button/card__button.css');
 @import url('./blocks/card/__button-icon/card__button-icon.css');
+
+@import url(./blocks/swiper/swiper.css); 
+/* Блок social */
+@import url(./blocks/social/__image/social__image.css);
+@import url(./blocks/social/__title/social__title.css);
+@import url(./blocks/social/__vertical/social__vertical.css);
+@import url(./blocks/social/__title-button/social__title-button.css);
+@import url(./blocks/social/__button-arrow/social__button-arrow.css);
+@import url(./blocks/social/__button-arrow/_type/social__button-arrow_type_light.css);
 
