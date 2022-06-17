@@ -60,8 +60,11 @@
     </section>
     <section class="social container">
       <div class="social__block-image">
-        <img srcset="./images/social_mobile.jpg 640w, 
-             ./images/social.jpeg 1500w" class="social__image" src="./images/social.jpeg" alt="парень и девушка">
+        <picture>
+          <source srcset="./images/social_mobile.jpeg" media="(max-width: 479px)">
+          <source srcset="./images/social.jpeg">
+          <img srcset="./images/social.jpeg" class="social__image" alt="парень и девушка">
+        </picture>
       </div>
       <h2 class="social__title">Рассказать
         <sup class="social__vertical">
