@@ -1,0 +1,21 @@
+.reviews__card {
+  background-color: #fff;
+  padding: 33px 30px 24px 30px;
+  display: flex;
+  flex-direction: column;
+  height: 361px;
+  box-sizing: border-box;
+}
+
+@media (max-width:1023px) {
+  .reviews__card {
+    height: 410px;
+  }
+}
+
+@media (max-width:479px) {
+  .reviews__card {
+    padding: 72px 27px 100px 27px;
+    height: 476px;
+  }
+}

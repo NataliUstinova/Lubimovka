@@ -8,9 +8,10 @@
     />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="./index.css" type="text/css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" type="text/css" />
     <title>Любимовка</title>
   </head>
-  <body>
+  <body class="page">
     <section class="school">
       <div class="shcool__container">
         <h1 class="school__title">С_училища</h1>
@@ -49,5 +50,63 @@
         <li><img class="photo-grid__item" src="images/photo-grid__08.png" alt="Девушка в театре"></li>
       </ul>
     </section>
+
+    <section class="reviews container">
+       <div class="reviews__switch">
+        <h2 class="reviews__title">Отзывы зрителей</h2>
+        <button class="button-slider button-slider_type_prev" type="button">
+          <img class="button-slider__image button-slider__image_type_dark" src="./images/reviews__left.svg" alt="button-left">
+          <img class="button-slider__image button-slider__image_type_light" src="./images/reviews_white_left.svg" alt="button-left">
+        </button>
+        <button class="button-slider button-slider_type_next button-slider_mirrored" type="button">
+          <img class="button-slider__image button-slider__image_type_dark" src="./images/reviews__right.svg" alt="button-right">
+          <img class="button-slider__image button-slider__image_type_light" src="./images/reviews_white_right.svg" alt="button-right">
+        </button>
+      </div>
+      <div class="reviews__cards">
+         <!-- Slider main container -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="social container">
+        <picture>
+          <source srcset="./images/social_mobile.jpeg" media="(max-width: 479px)">
+          <source srcset="./images/social.jpeg">
+          <img srcset="./images/social.jpeg" class="social__image" alt="парень и девушка">
+        </picture>
+      <h2 class="social__title">Рассказать
+        <sup class="social__vertical">
+          <a class="social__title-button" href="#">
+            <img class="social__button-arrow social__button-arrow_type_dark" src="./images/reviews__right.svg" alt="arrow-dark">
+            <img class="social__button-arrow social__button-arrow_type_light" src="./images/reviews_white_right.svg" alt="arrow-light">
+          fb</a>
+          <a class="social__title-button" href="#">
+            <img class="social__button-arrow social__button-arrow_type_dark" src="./images/reviews__right.svg" alt="arrow-dark">
+            <img class="social__button-arrow social__button-arrow_type_light" src="./images/reviews_white_right.svg" alt="arrow-light">
+            vk</a>
+          <a class="social__title-button" href="#">
+            <img class="social__button-arrow social__button-arrow_type_dark" src="./images/reviews__right.svg" alt="arrow-dark">
+            <img class="social__button-arrow social__button-arrow_type_light" src="./images/reviews_white_right.svg" alt="arrow-light">
+            twtr</a>
+        </sup>
+        о спектакле в&nbsp;соцсетях
+      </h2>
+    </section>
+    <template class="reviews-cards-template">
+      <div class="swiper-slide">
+        <div class="reviews__card">
+          <p class="reviews__text"></p>
+          <span class="reviews__author"></span>
+        </div>
+      </div>
+    </template>
+    <script src="./script/script.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./script/review_slider.js"></script>
   </body>
 </html>
