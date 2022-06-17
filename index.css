@@ -4,6 +4,15 @@
 @import url('vendor/fonts/neue-machina-regular/neue-machina-regular.css');
 /* Блок page */
 @import url('blocks/page/page.css');
+/*Header*/
+@import url('blocks/header/header.css');
+@import url('blocks/header/__logo/header__logo.css');
+@import url('blocks/header/__container/header__container.css');
+@import url('blocks/header/__item/header__item.css');
+@import url('blocks/header/__link/header__link.css');
+@import url('blocks/header/__links/headder__links.css');
+@import url('blocks/header/__links/_social/header__links_social.css');
+
 /* Блок school */
 @import url('blocks/school/school.css');
 @import url('blocks/school/__container/school__container.css');

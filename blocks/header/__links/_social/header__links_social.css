@@ -1,0 +1,7 @@
+.header__links_social {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  border-right: 1px solid #242424;
+}
