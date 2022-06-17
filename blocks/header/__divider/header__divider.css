@@ -1,0 +1,5 @@
+.header__divider {
+  border-left: 1px solid #242424;
+  height: 50px;
+  align-self: flex-end;
+}

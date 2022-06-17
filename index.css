@@ -11,6 +11,7 @@
 @import url('blocks/header/header.css');
 @import url('blocks/header/__logo/header__logo.css');
 @import url('blocks/header/__container/header__container.css');
+@import url('blocks/header/__divider/header__divider.css');
 @import url('blocks/header/__item/header__item.css');
 @import url('blocks/header/__link/header__link.css');
 @import url('blocks/header/__links/headder__links.css');
