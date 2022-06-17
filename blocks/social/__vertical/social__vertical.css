@@ -2,3 +2,9 @@
   display: inline-flex;
   vertical-align: top;
 }
+
+@media (max-width:479px) {
+  .social__vertical {
+    top: 0;
+  }
+}
