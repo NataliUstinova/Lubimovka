@@ -15,6 +15,10 @@
 @import url(/blocks/school/__title/school__title.css);
 /* Блок column */
 @import url(/blocks/column/column.css);
+/* Блок photo-grid */
+@import url("blocks/photo-grid/photo-grid.css");
+@import url("blocks/photo-grid/__item/photo-grid__item.css");
+@import url("blocks/photo-grid/__header/photo-grid__header.css");
 /* Блок container */
 @import url(./blocks/container/container.css);
 /* Блок reviews */
