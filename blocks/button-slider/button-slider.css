@@ -1,3 +1,12 @@
+@keyframes pulse {
+  from {
+    transform:scale(1);
+  }  
+  to {
+    transform: scale(1.1)
+  }
+}
+
 .button-slider {
   height: 50px;
   width: 50px;
@@ -19,6 +28,7 @@
 .button-slider:hover:not(.button-slider_disabled) {
   background-color: #242424;
   transition: background-color 0.15s ease-in-out 0.15s;
+  animation: pulse 0.6s ease-in-out alternate;
 }
 
 .button-slider:hover:not(.button-slider_disabled) .button-slider__image_type_light {
