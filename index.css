@@ -31,3 +31,9 @@
 @import url(./blocks/button-slider/_mirrored/button-slider_mirrored.css);
 /* Блок swiper  Слайдер */
 @import url(./blocks/swiper/swiper.css); 
+/* Блок social */
+@import url(./blocks/social/__title/social__title.css);
+@import url(./blocks/social/__vertical/social__vertical.css);
+@import url(./blocks/social/__title-button/social__title-button.css);
+@import url(./blocks/social/__button-arrow/social__button-arrow.css);
+@import url(./blocks/social/__button-arrow/_type/social__button-arrow_type_light.css);
