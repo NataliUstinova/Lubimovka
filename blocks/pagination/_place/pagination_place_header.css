@@ -1,0 +1,6 @@
+@media screen and (max-width: 479px) {
+  .pagination_place_header{
+    display: none;
+  }
+  
+}

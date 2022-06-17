@@ -1,0 +1,17 @@
+.button-slider_mirrored {
+  padding-left: 15px;
+  padding-right: 10px;
+}
+
+.button-slider_mirrored::before {
+  transform: rotate(180deg);
+  transform-origin: right center;
+}
+
+.button-slider_mirrored:hover:not(.button-slider_disabled)::before {
+  transform: rotate(360deg);
+}
+
+.button-slider_mirrored::after {
+  transform: rotate(0);
+}

@@ -1,0 +1,19 @@
+.card__text{
+  font-family: 'Formular Light', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 1.4;
+  letter-spacing: -0.01em;
+  font-feature-settings: 'ss01' on;
+  color: #242424;
+  margin: 47px 0 32px;
+}
+
+@media screen and (max-width: 479px) {
+.card__text{
+  font-size: 20px;
+  font-feature-settings: 'ss01' on;
+  margin-top: 35px;
+}
+}

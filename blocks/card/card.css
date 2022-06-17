@@ -1,0 +1,27 @@
+.card{
+  box-sizing: border-box;
+  width: 718px;
+  background-color: #fff;
+  padding: 55px 88px 72px;
+  height: fit-content;
+  cursor: pointer;
+}
+.card:first-of-type{
+  margin-left: -387px;
+  justify-self: end;
+}
+
+@media screen and (max-width: 718px) {
+  .card{
+    width: 100%;
+    max-width: 100%;
+    padding: 34px 26px 72px;
+  }
+  .card:first-of-type{
+    display: none;
+  }
+  .card:last-of-type{
+    display: none;
+  }
+  
+}

@@ -1,0 +1,7 @@
+.card_invisible{
+  background-color: #e5e5e5;
+  visibility: hidden;
+}
+.card_invisible button{
+  display:none;
+}
