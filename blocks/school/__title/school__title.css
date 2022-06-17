@@ -8,3 +8,11 @@
   color: #242424;
   margin: 62px 0 37px 120px;
 }
+
+@media screen and (max-width: 767px) {
+  .school__title {
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 16px;
+  }
+}
