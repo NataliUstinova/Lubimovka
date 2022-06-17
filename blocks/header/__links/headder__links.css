@@ -4,5 +4,7 @@
   align-items: center;
   gap: 10px;
   border-right: 1px solid #242424;
+  margin: 0;
+  padding: 0;
 }
 
