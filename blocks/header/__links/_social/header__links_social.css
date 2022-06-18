@@ -1,8 +1,8 @@
 .header__links_social {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
-  gap: 16px;
-  margin: 0 0 0 24px;
+  align-items: center;
+  gap: 10px;
+  margin: 0;
   padding: 0;
 }
