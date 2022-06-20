@@ -1,0 +1,8 @@
+.footer__description_type_mobile{
+  display: none;
+}
+@media screen and (max-width: 640px) {
+  .footer__description_type_mobile{
+    display: block;
+  }
+}

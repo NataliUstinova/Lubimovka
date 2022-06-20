@@ -1,0 +1,9 @@
+.footer__column_type_additional{
+  grid-area: additional;
+}
+@media screen and (max-width: 479px) {
+  .footer__column_type_additional{
+    margin-left: 55px;
+    margin-top: 35px;
+  }
+}

@@ -1,0 +1,16 @@
+.footer__info{
+  grid-area: info;
+  display: flex;
+  justify-content: end;
+}
+@media screen and (max-width: 970px) {
+  .footer__info{
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+@media screen and (max-width: 479px) {
+.footer__info{
+  margin-left: 27px;
+}
+}

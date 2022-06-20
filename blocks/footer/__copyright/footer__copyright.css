@@ -1,0 +1,20 @@
+.footer__copyright{
+  grid-area: copyright;
+  display: flex;
+  box-sizing: border-box;
+}
+@media screen and (max-width: 970px) {
+  .footer__copyright{
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+@media screen and (max-width: 479px) {
+  .footer__copyright{
+    width: 100%;
+    border-top: 1px solid #242424;
+    padding-top: 32px;
+    padding-left: 27px;
+  }
+  
+}

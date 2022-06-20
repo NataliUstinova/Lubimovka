@@ -1,0 +1,9 @@
+.footer__burger{
+  display: none;
+}
+@media screen and(max-width: 414px) {
+  .footer__burger{
+    display: block;
+  }
+  
+}

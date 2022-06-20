@@ -1,0 +1,13 @@
+.footer__text_place_design{
+  position: relative;
+  text-align: end;
+  max-width: 140px;
+}
+.footer__text_place_design:before{
+  content: '';
+  background-image: url("../../../../images/desigh_logo.svg");
+  width: 27px;
+  height: 25px;
+  position: absolute;
+  left: 0;
+}

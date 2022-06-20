@@ -1,0 +1,8 @@
+.footer__column_type_main{
+  grid-area: main;
+}
+@media screen and (max-width: 479px) {
+  .footer__column_type_main{
+    margin-left: 55px
+  }
+}
