@@ -21,8 +21,6 @@
 @import url('blocks/photo-grid/photo-grid.css');
 @import url('blocks/photo-grid/__item/photo-grid__item.css');
 @import url('blocks/photo-grid/__header/photo-grid__header.css');
-/* Блок container */
-@import url('blocks/container/container.css');
 /* Блок reviews */
 @import url('blocks/reviews/reviews.css');
 @import url('blocks/reviews/__title/reviews__title.css');
@@ -97,5 +95,6 @@
 @import url('./blocks/footer/__copyright/footer__copyright.css');
 @import url('./blocks/footer/__info/footer__info.css');
 @import url('./blocks/footer/__burger/footer__burger.css');
+
 
 

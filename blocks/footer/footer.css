@@ -13,7 +13,13 @@
   max-width: 1440px;
 }
 
-@media screen and (max-width: 1123px) {
+@media screen and (min-width: 1440px) {
+  .footer {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 1250px) {
   .footer{
     margin: 100px 30px 74px;
     padding: 0;
