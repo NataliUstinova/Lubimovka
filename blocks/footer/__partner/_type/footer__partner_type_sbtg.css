@@ -1,3 +1,10 @@
 .footer__partner_type_sbtg{
   grid-area: sbtg;
 }
+@media screen and (max-width: 479px) {
+  .footer__partner_type_sbtg{
+    margin-top: 22px;
+    margin-left: 35px;
+    height: 42px;
+  }
+}

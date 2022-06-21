@@ -1,9 +1,26 @@
 .footer__burger{
   display: none;
+  align-self: flex-end;
+  height: 72px;
+  width: 72px;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  background-color: #242424;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
 }
-@media screen and(max-width: 414px) {
+@media screen and (max-width: 414px) {
   .footer__burger{
-    display: block;
+    display: flex;
+  }
+  .footer__burger:before{
+    content: '';
+    width: 20px;
+    height: 14px;
+    background-image: url(../../../images/burger_lines.svg);
   }
   
 }

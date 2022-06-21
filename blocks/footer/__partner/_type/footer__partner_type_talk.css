@@ -1,3 +1,10 @@
 .footer__partner_type_talk{
   grid-area: talk;
 }
+
+@media screen and (max-width: 479px) {
+.footer__partner_type_talk{
+  margin-top: 34px;
+  margin-left: 7px;
+}
+}

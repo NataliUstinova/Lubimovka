@@ -1,3 +1,11 @@
 .footer__partner_type_online{
   grid-area: online;
+  margin-top: 12px;
+  margin-left: 5px;
+}
+@media screen and (max-height: 414px) {
+  .footer__partner_type_online{
+    display: none;
+  }
+  
 }

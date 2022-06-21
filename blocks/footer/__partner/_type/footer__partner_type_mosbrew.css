@@ -1,3 +1,10 @@
 .footer__partner_type_mosbrew{
   grid-area: mosbrew;
 }
+
+@media screen and (max-width: 479px) {
+  .footer__partner_type_mosbrew{
+    padding-top: 20px;
+    padding-left: 15px;
+  }
+}

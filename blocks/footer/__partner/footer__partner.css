@@ -1,3 +1,8 @@
 .footer__partner{
   height: 37px;
 }
+@media screen and (max-width: 479px) {
+  .footer__partner{
+    display: flex;
+  }
+}

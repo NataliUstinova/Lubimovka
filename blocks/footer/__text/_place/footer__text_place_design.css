@@ -11,3 +11,15 @@
   position: absolute;
   left: 0;
 }
+
+@media screen and (max-width: 479px) {
+  .footer__text_place_design{
+    margin-top: 43px;
+    max-width: 143px;
+    font-size: 14px;
+    line-height: 1.21;
+  }
+  .footer__text_place_design:before{
+    margin-top: 5px;
+  }
+}

@@ -2,3 +2,12 @@
   text-decoration: underline;
   margin-left: 4px;
 }
+
+@media screen and (max-width: 479px) {
+  .footer__link_underlined{
+    font-size: 14px;
+    line-height: 17px;
+    display: block;
+    margin: 0;
+  }
+}

@@ -1,3 +1,9 @@
 .footer__text_place_copyright{
   margin-right: 30px;
 }
+@media screen and (max-width: 479px) {
+  .footer__text_place_copyright{
+    font-size: 14px;
+    line-height: 1.21;
+  }
+}

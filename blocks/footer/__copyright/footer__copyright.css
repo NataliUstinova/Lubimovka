@@ -16,5 +16,9 @@
     padding-top: 32px;
     padding-left: 27px;
   }
-  
+  .footer__copyright .footer__link{
+    font-size: 14px;
+    line-height: 1.21;
+    text-decoration: underline;
+  }
 }
