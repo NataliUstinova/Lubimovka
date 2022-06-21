@@ -1,0 +1,25 @@
+.footer__text_place_design{
+  position: relative;
+  text-align: end;
+  max-width: 140px;
+}
+.footer__text_place_design:before{
+  content: '';
+  background-image: url("../../../../images/desigh_logo.svg");
+  width: 27px;
+  height: 25px;
+  position: absolute;
+  left: 0;
+}
+
+@media screen and (max-width: 479px) {
+  .footer__text_place_design{
+    margin-top: 43px;
+    max-width: 143px;
+    font-size: 14px;
+    line-height: 1.21;
+  }
+  .footer__text_place_design:before{
+    margin-top: 5px;
+  }
+}

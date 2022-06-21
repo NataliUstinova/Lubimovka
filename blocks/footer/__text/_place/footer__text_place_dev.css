@@ -1,0 +1,18 @@
+.footer__text_place_dev{
+  min-width: 248px;
+  margin-left: 40px;
+}
+
+@media screen and (max-width: 970px) {
+.footer__text_place_dev{
+margin: 0;
+}
+}
+
+@media screen and (max-width: 479px) {
+  .footer__text_place_dev{
+    font-size: 14px;
+    line-height: 1.21;
+    margin-top: 6px;
+  }
+}

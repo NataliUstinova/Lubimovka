@@ -1,0 +1,9 @@
+.footer__partner_type_partner{
+  grid-area: partner;
+}
+
+@media screen and (max-width: 479px) {
+  .footer__partner_type_partner{
+    margin-top: 10px;
+  }
+}

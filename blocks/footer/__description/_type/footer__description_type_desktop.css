@@ -1,0 +1,9 @@
+.footer__description_type_desktop{
+  max-width: 110px;
+}
+
+@media screen and (max-width: 640px) {
+.footer__description_type_desktop{
+  display: none;
+}
+}

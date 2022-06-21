@@ -1,0 +1,60 @@
+.footer{
+  background-color: #ECEBE8;
+  font-family: 'Formular Light', Arial, sans-serif;
+  margin: 137px 54px 54px 32px;
+  display: grid;
+  grid-template-areas: "logo partners partners partners partners"
+                    "logo address main about additional"
+                    "logo copyright info info info";
+  grid-template-columns: 176px 1fr 182px 175px 252px;  padding: 48px 0 0;
+  color: #242424;
+  font-size: 14px;
+  line-height: 1.21;
+  max-width: 1440px;
+}
+
+@media screen and (min-width: 1440px) {
+  .footer {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 1250px) {
+  .footer{
+    margin: 100px 30px 74px;
+    padding: 0;
+    grid-template-areas: "logo logo logo logo"
+    "partners partners partners partners"
+                      "address main about additional"
+                      "copyright copyright info info";
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .footer{
+    grid-template-areas: "logo address address"
+  "partners partners partners"
+  "main about additional"
+  "copyright info info";
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 479px) {
+  .footer{
+    margin-top: 151px;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    grid-template-areas: "logo logo" 
+    "address address"
+    "main about"
+    "additional additional"
+    "partners partners"
+    "copyright copyright"
+    "info info";
+    grid-template-columns: 1fr 1fr;
+    gap: unset;
+  }
+}

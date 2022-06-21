@@ -1,0 +1,12 @@
+.footer__column{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-top: 5px;
+  min-height: 260px;
+}
+@media screen and (max-width: 479px) {
+  .footer__column{
+    min-height: unset;
+  }
+}
